@@ -103,7 +103,7 @@ python -m baselines.knn_baseline --data data/training_data_clean.csv
 
 ---
 
-## 🛠 Engineering Highlights
+## Engineering Highlights
 
 ### 1. Pure NumPy Inference (`pred.py`)
 
