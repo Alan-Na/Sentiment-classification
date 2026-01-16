@@ -89,10 +89,10 @@ The system automatically compares the ensemble model against baselines. You can 
 
 | Model | Accuracy | Macro-F1 | Architecture Notes |
 | --- | --- | --- | --- |
-| **KNN Baseline** | *(Run script)* | *(Run script)* | Features: Likert Scale + Keyword Indicators |
-| **Softmax Branch** | *(See reports)* | *(See reports)* | TF-IDF (1-2 ngrams) + Logistic Regression |
-| **MLP Branch** | *(See reports)* | *(See reports)* | Structured Data (One-Hot) + Text (SVD) → 3-Layer MLP |
-| **Ensemble (Final)** | **(See reports)** | **(See reports)** | Weighted Probability Averaging |
+| **KNN Baseline** | 0.5679 | 0.5646 | Features: Likert Scale + Keyword Indicators |
+| **Softmax Branch** | 0.6364 | 0。6159 | TF-IDF + Logistic Regression |
+| **MLP Branch** | 0.6909 | 0.6876 | One-Hot + SVD → 3-Layer MLP |
+| **Ensemble ** | 0.7030 | 0.6969 | Weighted Probability Averaging |
 
 To run the KNN baseline for comparison:
 
