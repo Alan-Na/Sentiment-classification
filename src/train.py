@@ -141,7 +141,6 @@ def train_softmax_branch(
     Xte = vec.transform(X_te_text)
 
     clf = LogisticRegression(
-        multi_class="multinomial",
         solver="lbfgs",
         C=config.SOFTMAX_LR_C,
         max_iter=config.SOFTMAX_LR_MAX_ITER,
