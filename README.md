@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ### 2. Data Setup
 
-Place your cleaned dataset at `data/training_data_clean.csv`.
+Place the dataset at `data/`.
 
 * **Required Column:** `label` (Target class)
 * **Optional Column:** `student_id` (Used for **Group-Aware Splitting** to prevent data leakage from the same user appearing in both train and test sets).
